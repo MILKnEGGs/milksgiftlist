@@ -110,5 +110,5 @@
     <button class="btn danger" onclick={eraseAll}>Erase everything on this device</button>
   </section>
 
-  <p class="muted small" style="text-align:center">Milk's Gift List v{__APP_VERSION__} · made with ❤️</p>
+  <p class="muted small" style="text-align:center">Milk's Gift List v{__APP_VERSION__} · made with ❤️ · <a href="https://milkneggs.github.io/pitch/milksgiftlist.html" target="_blank" rel="noopener">See what it does</a></p>
 </main>

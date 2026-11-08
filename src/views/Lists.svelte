@@ -45,8 +45,8 @@
       {#if l.forWho}<span class="for">for {l.forWho}</span>{/if}
     </span>
     <span class="meta">
-      {#if l.date}📅 {whenText(l.date)} · {/if}{summary(l)}
-      {#if l.kind === 'shared' && l.ownerName}· from {l.ownerName}{/if}
+      {#if l.date}📅 {whenText(l.date)}{" · "}{/if}{summary(l)}
+      {#if l.kind === 'shared' && l.ownerName}{' · from '}{l.ownerName}{/if}
     </span>
     {#if doubles(l)}<span class="warn-pill">⚠️ {doubles(l)} doubled up</span>{/if}
     {#if l.kind === 'mine' && l.got.some((g) => !g.thanked)}<span class="warn-pill">💌 {l.got.filter((g) => !g.thanked).length} thank-you{l.got.filter((g) => !g.thanked).length === 1 ? '' : 's'} to go</span>{/if}
