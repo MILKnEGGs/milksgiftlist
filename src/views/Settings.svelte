@@ -106,6 +106,15 @@
   </section>
 
   <section class="card stack">
+    <h3>📝 Milk's Gift Planner</h3>
+    <p class="muted small" style="margin:0">
+      The sister app for your own shopping: everyone you're buying for at each holiday, gift ideas, budgets, and what's bought, wrapped and
+      given. Paste a list from here into it to turn the gifts into ideas.
+    </p>
+    <a class="btn" href="https://milkneggs.github.io/milksgiftplanner/" target="_blank" rel="noopener">Open Milk's Gift Planner ↗</a>
+  </section>
+
+  <section class="card stack">
     <h3>Danger zone</h3>
     <button class="btn danger" onclick={eraseAll}>Erase everything on this device</button>
   </section>
